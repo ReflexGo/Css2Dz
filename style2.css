@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Mansalva|Quicksand&display=swap');
+.fonts {
+    font-size: 20px;
+    font-family: 'Mansalva', cursive;
+    color: green;
+}
+.fonts-p {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.fonts-p-p {
+    font-family: 'Playfair Display', serif;
+}
+.table {
+    text-align: center;
+    background-color: blue;
+    color: coral;
+    font-size: 30px;
+    width: 500px;
+    height: max-content;
+    border: 5px solid black;
+    border-radius: 15px;
+    background-image: url(https://wallpapers-fenix.eu/full/141211/091119976.jpg);
+    background-size: cover;
+    display: table;
+}
+
+.caption {
+    display: table-caption;
+}
+.thead{
+    display: table-header-group;
+}
+.tbody {
+    display: table-row-group;
+}
+.row {
+    display: table-row;
+    border-bottom: 1px solid orangered;
+    border-right: 1px solid orangered;
+}
+.tfoot {
+    display: table-footer-group;
+}
+.cell {
+    display: table-cell;
+    border-bottom: 1px solid orangered;
+    border-right: 1px solid orangered;
+    
+
+}
